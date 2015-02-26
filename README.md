@@ -1,6 +1,12 @@
 yii2-widget-spinner
 ===================
 
+[![Latest Stable Version](https://poser.pugx.org/kartik-v/yii2-widget-spinner/v/stable.svg)](https://packagist.org/packages/kartik-v/yii2-widget-spinner)
+[![License](https://poser.pugx.org/kartik-v/yii2-widget-spinner/license.svg)](https://packagist.org/packages/kartik-v/yii2-widget-spinner)
+[![Total Downloads](https://poser.pugx.org/kartik-v/yii2-widget-spinner/downloads.svg)](https://packagist.org/packages/kartik-v/yii2-widget-spinner)
+[![Monthly Downloads](https://poser.pugx.org/kartik-v/yii2-widget-spinner/d/monthly.png)](https://packagist.org/packages/kartik-v/yii2-widget-spinner)
+[![Daily Downloads](https://poser.pugx.org/kartik-v/yii2-widget-spinner/d/daily.png)](https://packagist.org/packages/kartik-v/yii2-widget-spinner)
+
 The Spinner widget is a wrapper for the [spin.js](http://fgnass.github.io/spin.js). It enables you to add an animated CSS3 loading spinner which allows VML fallback for IE.
 Since, its not image based, it allows you to configure the spinner style, size, color, and other CSS attributes. The major advantage of using the CSS3 based spinner, is
 that the animation can be made visible to user for non-ajax based scenarios. For example on  events like window.load or window.unload (thereby enabling you to show a 
