@@ -1,3 +1,9 @@
+version 1.0.2
+=============
+**Date:** 01-Nov-2016
+
+- Added semicolons in javascript files for compatibility with YUI compressor.
+
 version 1.0.1
 =============
 **Date:** 10-Jul-2015
