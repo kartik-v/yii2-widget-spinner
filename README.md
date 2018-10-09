@@ -1,7 +1,8 @@
 yii2-widget-spinner
 ===================
 
-[![Latest Stable Version](https://poser.pugx.org/kartik-v/yii2-widget-spinner/v/stable)](https://packagist.org/packages/kartik-v/yii2-widget-spinner)
+[![Stable Version](https://poser.pugx.org/kartik-v/yii2-widget-spinner/v/stable)](https://packagist.org/packages/kartik-v/yii2-widget-spinner)
+[![Unstable Version](https://poser.pugx.org/kartik-v/yii2-widget-spinner/v/unstable)](https://packagist.org/packages/kartik-v/yii2-widget-spinner)
 [![License](https://poser.pugx.org/kartik-v/yii2-widget-spinner/license)](https://packagist.org/packages/kartik-v/yii2-widget-spinner)
 [![Total Downloads](https://poser.pugx.org/kartik-v/yii2-widget-spinner/downloads)](https://packagist.org/packages/kartik-v/yii2-widget-spinner)
 [![Monthly Downloads](https://poser.pugx.org/kartik-v/yii2-widget-spinner/d/monthly)](https://packagist.org/packages/kartik-v/yii2-widget-spinner)
@@ -31,7 +32,7 @@ to the ```require``` section of your `composer.json` file.
 
 ## Latest Release
 
-> NOTE: The latest version of the module is v1.0.1 released on 10-Jul-2015. Refer the [CHANGE LOG](https://github.com/kartik-v/yii2-widget-spinner/blob/master/CHANGE.md) for details.
+> Refer the [CHANGE LOG](https://github.com/kartik-v/yii2-widget-spinner/blob/master/CHANGE.md) for details on changes to various releases.
 
 ## Demo
 
@@ -52,4 +53,4 @@ use kartik\spinner\Spinner;
 
 ## License
 
-**yii2-widget-spinner** is released under the BSD 3-Clause License. See the bundled `LICENSE.md` for details.
+**yii2-widget-spinner** is released under the BSD-3-Clause License. See the bundled `LICENSE.md` for details.

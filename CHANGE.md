@@ -1,11 +1,18 @@
-version 1.0.1
-=============
-**Date:** 10-Jul-2015
+Change Log: `yii2-widget-depdrop`
+=================================
 
-- Set composer version dependencies.
+## Version 1.0.1
 
-version 1.0.0
-=============
+**Date:** 09-Oct-2018
+
+- Bump composer dependencies.
+- Add Bootstrap 4.x support.
+- Reorganize all source code in `src` directory.
+- Add github contribution and issue/PR log templates.
+- Update copyright year to current.
+
+## Version 1.0.0
+
 **Date:** 08-Nov-2014
 
 - Initial release 

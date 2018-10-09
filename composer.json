@@ -1,7 +1,16 @@
 {
     "name": "kartik-v/yii2-widget-spinner",
     "description": "A widget to render animated CSS3 loading spinners with VML fallback for IE (sub repo split from yii2-widgets)",
-    "keywords": ["yii2", "extension", "widget", "spinner", "loading", "css3", "jquery", "plugin"],
+    "keywords": [
+        "yii2",
+        "extension",
+        "widget",
+        "spinner",
+        "loading",
+        "css3",
+        "jquery",
+        "plugin"
+    ],
     "homepage": "https://github.com/kartik-v/yii2-widget-spinner",
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
@@ -13,11 +22,16 @@
         }
     ],
     "require": {
-        "kartik-v/yii2-krajee-base": "~1.7"
+        "kartik-v/yii2-krajee-base": ">=2.0.0"
     },
     "autoload": {
         "psr-4": {
-            "kartik\\spinner\\": ""
+            "kartik\\spinner\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
         }
     }
 }

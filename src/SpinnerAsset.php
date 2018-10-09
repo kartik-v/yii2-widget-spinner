@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @copyright Copyright &copy; Kartik Visweswaran, Krajee.com, 2014-2015
+ * @copyright Copyright &copy; Kartik Visweswaran, Krajee.com, 2014 - 2018
  * @package yii2-widgets
  * @subpackage yii2-widget-spinner
  * @version 1.0.1
@@ -9,7 +9,7 @@
 
 namespace kartik\spinner;
 
-use Yii;
+use kartik\base\AssetBundle;
 
 /**
  * Asset bundle for Spinner Widget
@@ -17,8 +17,11 @@ use Yii;
  * @author Kartik Visweswaran <kartikv2@gmail.com>
  * @since 1.0
  */
-class SpinnerAsset extends \kartik\base\AssetBundle
+class SpinnerAsset extends AssetBundle
 {
+    /**
+     * @inheritdoc
+     */
     public function init()
     {
         $this->setSourcePath(__DIR__ . '/assets');

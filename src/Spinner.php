@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @copyright Copyright &copy; Kartik Visweswaran, Krajee.com, 2014-2015
+ * @copyright Copyright &copy; Kartik Visweswaran, Krajee.com, 2014 - 2018
  * @package yii2-widgets
  * @subpackage yii2-widget-spinner
  * @version 1.0.1
@@ -10,6 +10,7 @@
 namespace kartik\spinner;
 
 use Yii;
+use kartik\base\Widget;
 use yii\helpers\Html;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Json;
@@ -20,7 +21,7 @@ use yii\helpers\Json;
  *
  * @author Kartik Visweswaran <kartikv2@gmail.com>
  */
-class Spinner extends \yii\base\Widget
+class Spinner extends Widget
 {
     const TINY = 'tiny';
     const SMALL = 'small';
@@ -102,17 +103,11 @@ class Spinner extends \yii\base\Widget
     private $_validPreset = false;
 
     /**
-     * @var array widget plugin options
+     * @inheritdoc
      */
-    public $pluginOptions = [];
-
-    public function init()
+    public function run()
     {
-        parent::init();
         $this->_validPreset = (!empty($this->preset) && in_array($this->preset, $this->_presets));
-        if (empty($this->options['id'])) {
-            $this->options['id'] = $this->getId();
-        }
 
         // Spinner
         $tag = ArrayHelper::remove($this->spinOptions, 'tag', 'div');
